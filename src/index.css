@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-image: linear-gradient(to right top, #443e3d, #042d45, #69d0db, #00bf72, #b0bc94);
+}
+
+table {
+    font-size: 18px;
+    color: white;
+}
+
+th {
+    color: rgb(151, 246, 103);
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+}
+
+td {
+    width: 80px;
+    color: rgb(237, 196, 196);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
